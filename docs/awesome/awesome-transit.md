@@ -3,6 +3,15 @@
 
 ##### Community list of data standards, APIs, apps, tools, datasets, and research around open source technology of public transit.
 
+Open technology provides an opportunity for various stakeholders to collaborate efforts to improve public transit.
+
+Elements of open technology include:
+- Open standards
+- Open data
+- Open source software (both as consumer-facing apps like OpenTripPlanner and developer tools like the GTFS Validator)
+
+This list is focused around the open technology ecosystem for public transportation. Included technologies may be open source themselves and/or rely on open standards and/or open data.
+
 Have something to add or change? Open a [pull request](https://github.com/MobilityData/awesome-transit/pulls) or [issue](https://github.com/MobilityData/awesome-transit/issues) at [MobilityData/awesome-transit](https://github.com/MobilityData/awesome-transit).
 
 ------------------------------
@@ -354,6 +363,7 @@ Converters from various static schedule formats to and from GTFS.
 
 #### GTFS Data Collection and Maintenance Tools
 
+- [AddTransit](https://addtransit.com/gtfs-transit-file.php) - SaaS (Software as a Service) platform to create, edit and publish schedules in GTFS format.
 - [bus-router](https://github.com/atlregional/bus-router) - Python script that generates missing shapes.txt for GTFS using routing from [Google Maps Directions API](https://developers.google.com/maps/documentation/directions/) or [OSRM](https://github.com/Project-OSRM/osrm-backend/wiki/Server-api).
 - [gtfs-blocks-to-transfers](https://github.com/TransitApp/GTFS-blocks-to-transfers) - A Python tool to convert GTFS blocks, defined by setting [trip.block\_id](https://github.com/google/transit/blob/master/gtfs/spec/en/reference.md#example-blocks-and-service-day) into a series of [trip-to-trip transfers (proposal)](https://github.com/google/transit/pull/303).
 - [GTFS Diff](https://transport.data.gouv.fr/tools/gtfs_diff) - GTFS Diff is a specification created by transport.data.gouv.fr and aims at providing a simple and unified way to express differences between GTFS files.
