@@ -1,19 +1,19 @@
 <div class="github-widget" data-repo="cicdops/awesome-ciandcd"></div>
 ## ciandcd [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-**持续集成和持续交付**
+**Continuous Integration and Continuous Delivery**
 
-撰写者 [cicdops.com](http://www.cicdops.com)  
+Written by [theaiera.cn](http://www.theaiera.cn)  
 
-一个精选的很棒的工具列表：   
-持续集成  
-持续交付  
-软件整合  
+A curated list of awesome tools for:   
+continuous integration  
+continuous delivery  
+software integration  
 devops  
 
 
 ## Theory
-持续集成和持续交付理论  
+The theory for continuous integration and continuous deliver  
 * [continuousIntegration](http://martinfowler.com/articles/continuousIntegration.html)  
 * [continuousdelivery](http://continuousdelivery.com)  
 * [software integration](https://en.wikipedia.org/wiki/System_integration)  
@@ -23,253 +23,253 @@ devops
 * [devops_roadmap](https://github.com/kamranahmedse/developer-roadmap)  
 
 ## Build And Release System
-软件构建与发布、持续集成与持续交付系统  
+The system for software build and release, continuous integration and continuous delivery  
 * [Jenkins](http://jenkins-ci.org)  An extendable open source continuous integration server  
-* [Solano CI](https://www.solanolabs.com)  通过获得专利的自动并行化加快持续集成和部署. 查看结果的速度提高 10 到 80 倍.  14 天免费试用. 无需信用卡.
-* [Concourse](https://concourse-ci.org) 管道不是无数的复选框，而是定义为单个声明性配置文件
-* [BuildForge](https://jazz.net/downloads/rational-build-forge/)  自动化并加速构建和发布过程  
-* [ElectricFlow](http://electric-cloud.com/products/electricflow/)   ElectricFlow/ElectricCommander 为分布式团队提供对基础设施、工具链和流程的共享控制和可见性. 它加速并自动化软件交付过程，以在许多构建-测试-部署管道中实现敏捷性、可预测性和安全性  
-* [Teamcity](http://www.jetbrains.com/teamcity/index.html)  准备工作，可扩展  
-开箱即用且对开发人员友好的构建服务器  
-* [bamboo](https://www.atlassian.com/software/bamboo)   Bamboo 不只是运行构建和测试. 它连接问题、提交、测试结果和部署，因此整个产品团队都可以看到整个画面  
-* [go (the old snap-ci)](https://www.gocd.org/)  自动化并简化构建-测试-发布周期，实现无忧、持续的产品交付  
-* [hudson](http://hudson-ci.org)  詹金斯的前一个  
-* [openbuildservice](http://openbuildservice.org)   Open Build Service (OBS) 是一个通用系统，用于以自动、一致和可重现的方式从源构建和分发二进制包. 您可以为各种操作系统和硬件架构发布软件包以及更新、附加组件、设备和整个发行版  
-* [buildbot](http://trac.buildbot.net)    Buildbot 是一个持续集成系统，旨在自动化构建/测试周期. 通过在每次发生变化时自动重建和测试树，可以在其他开发人员因失败而感到不便之前快速查明构建问题  
-* [Parabuild](http://www.viewtier.com/index.htm)  Parabuild 是一个企业软件构建和发布管理系统，通过为软件团队提供几乎牢不可破的发布构建和持续集成来帮助他们按时发布  
-* [FinalBuilder](https://www.finalbuilder.com/)  使用 FinalBuilder 自动化您的构建过程很简单. 使用 FinalBuilder，您无需编辑 xml 或编写脚本. 可视化定义和调试您的构建脚本，然后使用 Windows 调度程序对其进行调度，或将它们与 Continua CI、Jenkins 或任何其他 CI 服务器集成  
-* [VisualBuild](http://www.kinook.com/VisBuildPro/)  Visual Build 使开发人员和构建大师能够轻松创建自动化、可重复的构建过程  
-* [cruisecontrol](http://www.cruisecontrolnet.org)  CruiseControl.NET，一种自动持续集成服务器，使用 .NET Framework 实现  
-* [continuum](http://continuum.apache.org/) Apache Continuum™ 是一个企业就绪的持续集成服务器，具有自动构建、发布管理、基于角色的安全性以及与流行的构建工具和源代码控制管理系统的集成等功能  
-* [quickbuild](http://www.pmease.com/)   GitHub 集成.  Perforce 搁置支持.  Coverity 报告渲染. 颠覆外部变化检索. 资源访问信息. 显示等待步骤的原因. 自定义构建和请求列. 最喜欢的仪表板列表. 可继承的环境变量.还有更多...  
-* [rexify](http://www.rexify.org//)  perl 部署和配置管理  
-* [SimpleCI](https://github.com/simpleci/simpleci) 基于 Docker 的自托管 ci 系统. 支持分布式构建缓存、外部提供者（GCE）、实时构建日志等.  
-* [pulse](http://zutubi.com) 没有免费版本.  
-* [PHP Censor](https://github.com/php-censor/php-censor) 用于 PHP 项目的开源自托管持续集成服务器.  
-* [rundeck](http://rundeck.org) Rundeck 具有细粒度访问控制、内置作业调度程序以及定义将命令和脚本分派到节点的工作流的能力.  
-* [cds](https://ovh.github.io/cds) CDS 是用 Go(lang) 编写的企业级持续交付和 DevOps 自动化平台.
-* [Drone CI](https://drone.io/)  Drone 是一个基于容器技术构建的持续交付系统.  Drone 使用一个简单的 YAML 配置文件（docker-compose 的超集）来定义和执行 Docker 容器内的管道.  
-* [Luigi](https://github.com/spotify/luigi)  Luigi 是一个 Python 模块，可帮助您构建批处理作业的复杂管道. 它处理依赖项解析、工作流管理、可视化等.它还内置了 Hadoop 支持.  
-* [Kraken CI](https://kraken.ci) Kraken CI 是一个现代 CI/CD、开源、内部部署系统，具有高度可扩展性并专注于测试.  
+* [Solano CI](https://www.solanolabs.com)  Faster Continuous Integration and Deployment with patented auto-parallelization. See results 10 to 80x faster. 14-day free trial. No credit card required.
+* [Concourse](https://concourse-ci.org) Rather than a myriad of checkboxes, pipelines are defined as a single declarative config file
+* [BuildForge](https://jazz.net/downloads/rational-build-forge/)  Automate and accelerate build and release processes  
+* [ElectricFlow](http://electric-cloud.com/products/electricflow/)  ElectricFlow/ElectricCommander gives distributed teams shared control and visibility into infrastructure, tool chains and processes. It accelerates and automates the software delivery process to enable agility, predictability and security across many build-test-deploy pipelines  
+* [Teamcity](http://www.jetbrains.com/teamcity/index.html)  Ready to work, extensible  
+and developer-friendly build server out of the box  
+* [bamboo](https://www.atlassian.com/software/bamboo)  Bamboo does more than just run builds and tests. It connects issues, commits, test results, and deploys so the whole picture is available to your entire product team  
+* [go (the old snap-ci)](https://www.gocd.org/)  Automate and streamline the build-test-release cycle for worry-free, continuous delivery of your product  
+* [hudson](http://hudson-ci.org)  the previous one of Jenkins  
+* [openbuildservice](http://openbuildservice.org)  The Open Build Service (OBS) is a generic system to build and distribute binary packages from sources in an automatic, consistent and reproducible way. You can release packages as well as updates, add-ons, appliances and entire distributions for a wide range of operating systems and hardware architectures  
+* [buildbot](http://trac.buildbot.net)   Buildbot is a continuous integration system designed to automate the build/test cycle. By automatically rebuilding and testing the tree each time something has changed, build problems are pinpointed quickly, before other developers are inconvenienced by the failure  
+* [Parabuild](http://www.viewtier.com/index.htm)  Parabuild is an enterprise software build and release management system that helps software teams to release on time by providing them practically unbreakable release builds and Continuous Integration  
+* [FinalBuilder](https://www.finalbuilder.com/)  Automating your Build process is simple with FinalBuilder. With FinalBuilder you don't need to edit xml, or  write scripts. Visually define and debug your build scripts, then schedule them with windows scheduler, or integrate them with Continua CI, Jenkins or any other CI Server  
+* [VisualBuild](http://www.kinook.com/VisBuildPro/)  Visual Build enables developers and build masters to easily create an automated, repeatable build process  
+* [cruisecontrol](http://www.cruisecontrolnet.org)  CruiseControl.NET, an Automated Continuous Integration server, implemented using the .NET Framework  
+* [continuum](http://continuum.apache.org/) Apache Continuum™ is an enterprise-ready continuous integration server with features such as automated builds, release management, role-based security, and integration with popular build tools and source control management systems  
+* [quickbuild](http://www.pmease.com/)  GitHub integration. Perforce shelve support. Coverity report rendering. Subversion external change retrieval. Resource access info. Display reasons for waiting steps. Custom build and request columns. Favorite dash board list. Inheritable environment variables.And much more...  
+* [rexify](http://www.rexify.org//)  perl Deployment & Configuration Management  
+* [SimpleCI](https://github.com/simpleci/simpleci) Docker-based self-hosted ci system. Supports distributed build cache, external providers (GCE), real-time build log, etc.  
+* [pulse](http://zutubi.com) no free version.  
+* [PHP Censor](https://github.com/php-censor/php-censor) Open source self-hosted continuous integration server for PHP projects.  
+* [rundeck](http://rundeck.org) Rundeck features fine-grain access controls, a built-in job scheduler, and the ability to define workflows that dispatch commands and scripts to your nodes.  
+* [cds](https://ovh.github.io/cds) CDS is an Enterprise-Grade Continuous Delivery & DevOps Automation Platform written in Go(lang).
+* [Drone CI](https://drone.io/) Drone is a Continuous Delivery system built on container technology. Drone uses a simple YAML configuration file, a superset of docker-compose, to define and execute Pipelines inside Docker containers.  
+* [Luigi](https://github.com/spotify/luigi) Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.  
+* [Kraken CI](https://kraken.ci) Kraken CI is a modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.  
 
 ## Online Build System
-在线构建发布系统  
-* [appcircle.io](https://appcircle.io) — 带有在线设备模拟器的 iOS 和 Android 自动化移动 CI/CD/CT.
-* [closeheat](http://closeheat.com) 静态网站与 GitHub 和云开发环境集成
-* [travis-ci](https://travis-ci.org) github 和 bitbuckets 的 ci 服务器  
-* [cloudbees](https://www.cloudbees.com/) 企业詹金斯公司  
-* [elasticbox](https://elasticbox.com)  一种 DevOps 方法，专注于将可重用的应用程序组件作为服务，并使运营能够提供 IT 即服务  
-* [coveralls](https://coveralls.io)  随着时间的推移跟踪项目的代码覆盖率、文件更改并标记 GitHub 存储库  
-* [shippable](https://app.shippable.com/)  基于docker构建的托管式持续集成部署服务  
-* [circleci](https://circleci.com)  Web 应用程序的持续集成.  
-* [buildbox](https://buildkite.com/)  简单的自托管持续集成  
-* [drone](https://drone.io) 基于Docker构建的开源持续集成平台  
-* [appveyor](http://www.appveyor.com)  为繁忙的 Windows 持续集成和部署服务  
-* ~~[snap-ci](https://snap-ci.com) 轻松构建，随心部署~~.
-* [codeship](https://codeship.com)  持续集成和交付变得简单  
-* [githost](https://githost.io)  无痛的 GitLab CE 和 CI 托管  
-* [testling](https://ci.testling.com) 每次推送时自动浏览器测试  
-* [magnum-ci](https://magnum-ci.com)  私有存储库的托管持续集成和交付平台  
-* [wercker](http://wercker.com)  轻松测试和部署您的应用程序  
-* [codecov](https://codecov.io)  连续的代码覆盖. 具有浏览器扩展和很棒的拉取请求评论，以跟踪您的 GitHub/Bitbucket/Gitlab 存储库随时间推移的覆盖率  
-* [GitLab CI](https://about.gitlab.com/gitlab-ci/)  - 基于红宝石. 他们还提供管理 git 存储库的 GitLab. 
-* [IBM DevOps Services](https://hub.jazz.net) - 在 IBM Bluemix 云平台上开发、跟踪、规划和部署软件.  
-* [deploybot](https://deploybot.com) - 在一个一致的流程中为您的整个团队即时构建和发送代码到任何地方.
-* [Semaphore CI](https://semaphoreci.com/) — 具有原生 Docker 支持的快速且易于使用的持续集成和部署服务.
-* [flow.ci](https://flow.ci/) - flow.ci，为塑造未来的创新者提供持续集成和交付服务.
-* [Bitrise](https://www.bitrise.io/)  基于云的移动持续集成和交付，OSS 免费  
-* [Cirrus CI](https://cirrus-ci.org) 免费开源，支持Linux、Windows、macOS和FreeBSD，灵活的托管CI服务  
-* [DeployPlace](https://deployplace.com)  - 复杂的部署变得简单. 在几分钟内从 git 或 CI 部署您的应用程序.
-* [Buildkite](https://buildkite.com) - 对所有软件项目进行闪电般的快速测试和交付
+Online build release system  
+* [appcircle.io](https://appcircle.io) — Automated mobile CI/CD/CT for iOS and Android with online device emulators.
+* [closeheat](http://closeheat.com) Static website integration with GitHub and Cloud development environment
+* [travis-ci](https://travis-ci.org) ci server for github and bitbuckets  
+* [cloudbees](https://www.cloudbees.com/) the Enterprise Jenkins Company  
+* [elasticbox](https://elasticbox.com)  A DevOps approach that focuses on reusable application components as a service, and enables operations to provide IT as a Service  
+* [coveralls](https://coveralls.io)  Track your project's code coverage over time, changes to files, and badge your GitHub repo  
+* [shippable](https://app.shippable.com/)  Hosted continuous integration and deployment service built on docker  
+* [circleci](https://circleci.com)  Continuous Integration for web apps.  
+* [buildbox](https://buildkite.com/)  Simple self-hosted Continuous Integration  
+* [drone](https://drone.io) Open source continuous integration platform built on Docker  
+* [appveyor](http://www.appveyor.com)  Continuous Integration and Deployment service for busy Windows  
+* ~~[snap-ci](https://snap-ci.com) Easy builds, deployed when you want~~.
+* [codeship](https://codeship.com)  Continuous Integration and Delivery made simple  
+* [githost](https://githost.io)  Painless GitLab CE & CI Hosting  
+* [testling](https://ci.testling.com) Automatic browser tests on every push  
+* [magnum-ci](https://magnum-ci.com)  Hosted Continuous Integration and Delivery Platform for private repositories  
+* [wercker](http://wercker.com)  Test and deploy your applications with ease  
+* [codecov](https://codecov.io)  Continuous code coverage. Featuring browser extenstions and awesome pull request commentsto track coverage over time on your GitHub/Bitbucket/Gitlab repo  
+* [GitLab CI](https://about.gitlab.com/gitlab-ci/) - Based off of ruby. They also provide GitLab, which manages git repositories. 
+* [IBM DevOps Services](https://hub.jazz.net) - Develop, track, plan, and deploy software onto the IBM Bluemix cloud platform.  
+* [deploybot](https://deploybot.com) - Instantly build and ship code anywhere in one consistent process for your entire team.
+* [Semaphore CI](https://semaphoreci.com/) — Fast and easy to use continuous integration and deployment service with native Docker support.
+* [flow.ci](https://flow.ci/) - flow.ci, hosted continuous integration and delivery service for innovators who shape the future.
+* [Bitrise](https://www.bitrise.io/)  Cloud based continuous integration and delivery for mobile, free for OSS  
+* [Cirrus CI](https://cirrus-ci.org) Free for open source, supports Linux, Windows, macOS and FreeBSD, flexible hosted CI service  
+* [DeployPlace](https://deployplace.com) - Complex deployments become simple. Deploy your applications from git or CI in minutes.
+* [Buildkite](https://buildkite.com) - Lightning fast testing and delivery for all your software projects
 
 
 ## Monitoring
-监控状态持续集成和持续交付的工具  
-* [CatLight](https://catlight.io)  为 Jenkins、TeamCity、Travis CI、Appveyor 和 TFS 构建状态监视器
-* [Barklarm](https://www.barklarm.com/)  支持 CCTray 规范和 Github Actions 的开源多平台警报监控器和服务器构建状态.
-* [CCMenu](http://ccmenu.org/)  支持 CCTray 规范的服务器的 OSx 构建状态监视器.
+Tools for monitoring the status continuous integration and continuous delivery  
+* [CatLight](https://catlight.io)  Build status monitor for Jenkins, TeamCity, Travis CI, Appveyor and TFS
+* [Barklarm](https://www.barklarm.com/)  Open Source multiplatform alarm munitor and build status of servers that support of CCTray Specification and Github Actions.
+* [CCMenu](http://ccmenu.org/)  OSx build status monitor for servers tha support CCTray Specification.
 
 ## Infrastructure
-硬件、虚拟机、fram 管理、docker  
-* [GridWiki](http://wiki.gridengine.info/wiki/index.php/Main_Page)  网格的 wiki 页面  
-* [UGE](http://www.univa.com)  Univa 工作负载管理解决方案通过在数千台服务器之间有效地共享工作负载来最大化现有计算资源的价值  
-* [SGE](http://gridscheduler.sourceforge.net)   Grid Engine 通常用于计算机场或高性能计算 (HPC) 集群，负责接受、调度、分派和管理大量独立、并行或交互式用户作业的远程和分布式执行. 它还管理和调度分布式资源的分配，例如处理器、内存、磁盘空间和软件许可证  
-* [LSF](http://www-03.ibm.com/systems/platformcomputing/products/lsf/)   Platform Load Sharing Facility（或简称 LSF）是一个用于分布式 HPC 环境的工作负载管理平台、作业调度程序. 它可用于在许多不同架构的联网 Unix 和 Windows 系统上执行批处理作业  
-* [vmwarevshpere](http://www.vmware.com/products/vsphere)  VMware vSphere（原VMware Infrastructure 4）是VMware的云计算虚拟化操作系统  
-* [citrixserver](http://www.citrix.com/products/xenserver/overview.html)   XenServer 是适用于公共云和私有云的最佳服务器虚拟化平台，为 5 家最大的托管服务提供商云中的 4 家提供支持.  XenServer 在构建时考虑了规模、安全性和多租户，可提供更大的灵活性和成本效益  
-* [miscrosofthyperv](https://github.com/cicdops/awesome-ciandcd/blob/master/Docker - An open platform for distributed applications for developers and sysadmins)  微软虚拟化  
-* [amazon](http://aws.amazon.com/ec2/) 云中可扩展、按需付费的计算能力  
-* [mesosphere-dc/os](https://github.com/cicdops/awesome-ciandcd/blob/master/mesosphere.com) 作为一个数据中心操作系统，DC/OS本身就是一个分布式系统，一个集群管理器，一个容器平台，一个操作系统.  
+The hardware,virtual machines, fram management, docker  
+* [GridWiki](http://wiki.gridengine.info/wiki/index.php/Main_Page)  wiki page for Grid  
+* [UGE](http://www.univa.com)  Univa workload management solutions maximize the value of existing computing resources by efficiently sharing workloads across thousands of servers  
+* [SGE](http://gridscheduler.sourceforge.net)  Grid Engine is typically used on a computer farm or high-performance computing (HPC) cluster and is responsible for accepting, scheduling, dispatching, and managing the remote and distributed execution of large numbers of standalone, parallel or interactive user jobs. It also manages and schedules the allocation of distributed resources such as processors, memory, disk space, and software licenses  
+* [LSF](http://www-03.ibm.com/systems/platformcomputing/products/lsf/)  Platform Load Sharing Facility (or simply LSF) is a workload management platform, job scheduler, for distributed HPC environments. It can be used to execute batch jobs on networked Unix and Windows systems on many different architectures  
+* [vmwarevshpere](http://www.vmware.com/products/vsphere)  VMware vSphere (formerly VMware Infrastructure 4) is VMware's cloud computing virtualization operating system  
+* [citrixserver](http://www.citrix.com/products/xenserver/overview.html)  XenServer is the best server virtualization platform for public and private clouds, powering 4 of the 5 largest hosting provider clouds.  Built with scale, security and multi-tenancy in mind, XenServer allows for even greater flexibility and cost efficiency  
+* [miscrosofthyperv](https://github.com/cicdops/awesome-ciandcd/blob/master/Docker - An open platform for distributed applications for developers and sysadmins)  microsoft virtualization  
+* [amazon](http://aws.amazon.com/ec2/) Scalable, pay-as-you-go compute capacity in the cloud  
+* [mesosphere-dc/os](https://github.com/cicdops/awesome-ciandcd/blob/master/mesosphere.com) As a datacenter operating system, DC/OS is itself a distributed system, a cluster manager, a container platform, and an operating system.  
 
 ## Dev env
-* [boxstarter](http://boxstarter.org/) 使用 Chocolatey 包可以轻松地进行可重复的、重新启动的弹性 Windows 环境安装.  
-* [T.A.D.S. boilerplate](https://github.com/Thomvaill/tads-boilerplate) 使用 Ansible 设置 Docker Swarm 环境的样板
-* [vagrantup](https://www.vagrantup.com/)  创建和配置轻型、可重现且可移植的开发环境.  
-* [veewee](https://github.com/jedi4ever/veewee) 简化 vagrant boxes 的构建  
+* [boxstarter](http://boxstarter.org/) Repeatable, reboot resilient windows environment installations made easy using Chocolatey packages.  
+* [T.A.D.S. boilerplate](https://github.com/Thomvaill/tads-boilerplate) A boilerplate to setup a Docker Swarm environment with Ansible
+* [vagrantup](https://www.vagrantup.com/)  Create and configure lightweight, reproducible, and portable development environments.  
+* [veewee](https://github.com/jedi4ever/veewee) Easing the building of vagrant boxes  
 
 ## Source Code Management
-版本控制和源代码管理工具  
-* [git](http://git-scm.com)  Git 是一个免费和开源的分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有内容  
-* [perforce](https://www.perforce.com/)  业界最可靠和经过验证的版本控制代码、图像、文档……一切的平台  
-* [clearcase](http://www-03.ibm.com/software/products/en/clearcase)  IBM Rational ClearCase 是一个软件配置管理解决方案，提供版本控制、工作区管理、并行开发支持和构建审计  
-* [mercurial](https://www.mercurial-scm.org/)   Mercurial 是一个免费的分布式源代码控制管理工具. 它可以有效地处理任何规模的项目，并提供简单直观的界面  
-* [svn](http://subversion.apache.org)  Subversion 是一个开源的版本控制系统  
-* [gitlab](https://about.gitlab.com/)  开源自托管 Git 管理软件  
-* [github](https://github.com)  针对开源和私有开发项目的强大协作、审查和代码管理.  
-* [bitbuckets](https://bitbucket.org)  将您的代码植入云端. 看着它成长.  
-* [teamfoundationservice](http://tfs.visualstudio.com)   Visual Studio Online 基于 Team Foundation Server 的功能和额外的云服务，是您的开发项目的在线主页. 无需安装或配置单个服务器，即可在我们的云基础架构上在几分钟内启动并运行.  Visual Studio Online 连接 Visual Studio、Eclipse、Xcode 和其他 Git 客户端，支持多种平台和语言的开发  
-* [phabricator](http://phabricator.org/)  Phabricator 是一组开源 Web 应用程序，可帮助软件公司构建更好的软件.  
-* [IBM DevOps Services](https://hub.jazz.net)  - 存储、管理、编辑和协作处理您的源代码. 然后部署到 IBM Bluemix 云平台上.  
+Version control and source code management tools  
+* [git](http://git-scm.com)  Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency  
+* [perforce](https://www.perforce.com/)  Industry’s most reliable and proven platform for versioning code, images, documents... everything  
+* [clearcase](http://www-03.ibm.com/software/products/en/clearcase)  IBM Rational ClearCase is a software configuration management solution that provides version control, workspace management, parallel development support, and build auditing  
+* [mercurial](https://www.mercurial-scm.org/)  Mercurial is a free, distributed source control management tool. It efficiently handles projects of any size and offers an easy and intuitive interface  
+* [svn](http://subversion.apache.org)  Subversion is an open source version control system  
+* [gitlab](https://about.gitlab.com/)  Open source self-hosted Git management software  
+* [github](https://github.com)  Powerful collaboration, review, and code management for open source and private development projects.  
+* [bitbuckets](https://bitbucket.org)  Plant your code in the cloud. Watch it grow.  
+* [teamfoundationservice](http://tfs.visualstudio.com)  Visual Studio Online, based on the capabilities of Team Foundation Server with additional cloud services, is the online home for your development projects. Get up and running in minutes on our cloud infrastructure without having to install or configure a single server. Visual Studio Online connects to Visual Studio, Eclipse, Xcode, and other Git clients to support development for a variety of platforms and languages  
+* [phabricator](http://phabricator.org/)  Phabricator is a collection of open source web applications that help software companies build better software.  
+* [IBM DevOps Services](https://hub.jazz.net) - Store, manage, edit, and collaborate on your source code. Then deploy onto the IBM Bluemix cloud platform.  
 
 ## Code Review
-代码审查工具  
-* [codecollaborator](http://smartbear.com/product/collaborator/overview/) Collaborator 帮助开发、测试和管理团队协同工作以生成高质量的代码  
-* [crucible](https://www.atlassian.com/software/crucible/overview)  代码审查 = 质量代码. 使用 Crucible 灵活的审查工作流程审查代码、讨论变更、分享知识和识别缺陷. 它的代码审查让 Subversion、CVS、Perforce 等变得容易  
-* [reviewboard](https://www.reviewboard.org/)  Review Board 消除了代码审查的痛苦，节省了您的时间、金钱和理智，因此您可以专注于制作出色的软件  
-* [codestriker](http://codestriker.sourceforge.net)   Codestriker 是一个支持在线代码审查的开源 Web 应用程序. 支持传统文档审查，以及审查由 SCM（源代码管理）系统和普通 unidiff 补丁生成的差异  
-* [getbarkeep](http://getbarkeep.org) 一种快速、有趣的代码审查方式  
-* [gerrit](https://code.google.com/p/gerrit/) Gerrit 是一个基于 Web 的代码审查系统，方便使用 Git 版本控制系统的项目的在线代码审查  
-* [Codebrag](http://www.codebrag.com/)  Codebrag 是一种简单的代码审查工具，可让您的团队顺利完成流程.  
-* [Upsource](https://www.jetbrains.com/upsource/) Polyglot 代码审查工具，具有 PHP、JavaScript 和 Kotlin 的代码洞察力、GitHub 集成、自动化工作流程、与 CI 服务器的集成
-* [Ebert](https://ebertapp.io) Ebert 对您的 GitHub 存储库进行持续的静态分析，并将其直接交付给您的合并请求，帮助您的团队专注于重要的事情并交付更好的软件.
+Code review tools  
+* [codecollaborator](http://smartbear.com/product/collaborator/overview/) Collaborator helps development, testing and management teams work together to produce high quality code  
+* [crucible](https://www.atlassian.com/software/crucible/overview)  Code reviews = quality code. Review code, discuss changes, share knowledge, and identify defects with Crucible's flexible review workflow. It's code review made easy for Subversion, CVS, Perforce, and more  
+* [reviewboard](https://www.reviewboard.org/)  Review Board takes the pain out of code review, saving you time, money, and sanity so you can focus on making great software  
+* [codestriker](http://codestriker.sourceforge.net)  Codestriker is an open-sourced web application which supports online code reviewing. Traditional document reviews are supported, as well as reviewing diffs generated by an SCM (Source Code Management) system and plain unidiff patches  
+* [getbarkeep](http://getbarkeep.org) a fast, fun way to review code  
+* [gerrit](https://code.google.com/p/gerrit/) Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system  
+* [Codebrag](http://www.codebrag.com/)  Codebrag is a simple code review tool that makes the process work for your team.  
+* [Upsource](https://www.jetbrains.com/upsource/) Polyglot Code Review Tool, featuring code insight for PHP, JavaScript and Kotlin, GitHub integration, automated workflows, integration with CI servers
+* [Ebert](https://ebertapp.io) Ebert does continuous static analysis of your GitHub repositories and delivers it straight to your Pull Requests, helping your team to focus on what's important and deliver better software.
 
 ## Build
-构建工具  
-* [gnumake](http://www.gnu.org/software/make/) GNU Make 是一种工具，它控制从程序的源文件生成程序的可执行文件和其他非源文件  
-* [gnuautoconf](http://www.gnu.org/software/autoconf/) Autoconf是一个可扩展的M4宏包，生成shell脚本自动配置软件源代码包  
-* [mozillabuildtools](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions)   Mozilla 构建系统与 Mozilla 代码库的其余部分一样，是跨平台的. 它使用传统的 Unix 风格的 autoconf 和 make 工具来构建各种应用程序（即使在非 unix 操作系统上）  
-* [scons](http://www.scons.org)   SCons 是一种开源软件构建工具——即下一代构建工具. 将 SCons 视为经典 Make 实用程序的改进跨平台替代品，具有类似于 autoconf/automake 和编译器缓存（如 ccache）的集成功能. 简而言之，SCons 是一种更简单、更可靠、更快速的软件构建方式  
-* [cmake](https://cmake.org/)   cmake 提供强大的跨平台软件开发解决方案. 了解我们如何帮助您的团队有效地管理软件项目的构建、测试和打包过程  
-* [msbuild](http://msdn.microsoft.com/en-us/library/dd393574.aspx)   Microsoft Build Engine 是一个用于构建应用程序的平台. 该引擎也称为 MSBuild，它为项目文件提供 XML 架构，用于控制构建平台如何处理和构建软件.  Visual Studio 使用 MSBuild，但它不依赖于 Visual Studio. 通过对项目或解决方案文件调用 msbuild.exe，您可以在未安装 Visual Studio 的环境中编排和构建产品  
-* [ant](http://ant.apache.org)   Ant 可用于试验任何类型的过程，这些过程可以根据目标和任务进行描述.  Ant 的主要已知用途是构建 Java 应用程序.  
-* [maven](http://maven.apache.org)   Apache Maven 是一个软件项目管理和理解工具. 基于项目对象模型 (POM) 的概念，Maven 可以从一条中央信息管理项目的构建、报告和文档.  
-* [gradle](http://gradle.org/)    Gradle 是构建自动化的演变.  Gradle 可以自动化构建、测试、发布、部署和更多的软件包或其他类型的项目，例如生成的静态网站、生成的文档或其他任何东西.  
-* [ElectricacCelerator](http://electric-cloud.com/products/electricaccelerator)   如果构建和测试需要很长时间才能完成，那么持续交付就不是连续的.  ElectricAccelerator 最多可将构建和测试速度提高 20 倍，从而缩短软件上市时间、基础设施利用率和开发人员生产力  
-* [SBT](http://www.scala-sbt.org/index.html)  sbt 是一个用于 Scala 和 Java 项目的开源构建工具.
-* [do](https://github.com/8gears/do)  地球上最简单的构建工具. 不可知论和多用途构建工具和构建文件. 试图比通常的 shell 地狱更好.
+Build tools  
+* [gnumake](http://www.gnu.org/software/make/) GNU Make is a tool which controls the generation of executables and other non-source files of a program from the program's source files  
+* [gnuautoconf](http://www.gnu.org/software/autoconf/) Autoconf is an extensible package of M4 macros that produce shell scripts to automatically configure software source code packages  
+* [mozillabuildtools](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions)  The Mozilla build system, like the rest of the Mozilla codebase, is cross-platform. It uses traditional Unix-style autoconf and make tools to build the various applications (even on non-unix operating systems)  
+* [scons](http://www.scons.org)  SCons is an Open Source software construction tool—that is, a next-generation build tool. Think of SCons as an improved, cross-platform substitute for the classic Make utility with integrated functionality similar to autoconf/automake and compiler caches such as ccache. In short, SCons is an easier, more reliable and faster way to build software  
+* [cmake](https://cmake.org/)  cmake offers robust, cross-platform software development solutions. Find out how we can help your team efficiently manage the build, test, and package process for your software project  
+* [msbuild](http://msdn.microsoft.com/en-us/library/dd393574.aspx)  The Microsoft Build Engine is a platform for building applications. This engine, which is also known as MSBuild, provides an XML schema for a project file that controls how the build platform processes and builds software. Visual Studio uses MSBuild, but it doesn't depend on Visual Studio. By invoking msbuild.exe on your project or solution file, you can orchestrate and build products in environments where Visual Studio isn't installed  
+* [ant](http://ant.apache.org)  Ant can be used to pilot any type of process which can be described in terms of targets and tasks. The main known usage of Ant is the build of Java applications.  
+* [maven](http://maven.apache.org)  Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.  
+* [gradle](http://gradle.org/)   Gradle is build automation evolved. Gradle can automate the building, testing, publishing, deployment and more of software packages or other types of projects such as generated static websites, generated documentation or indeed anything else.  
+* [ElectricacCelerator](http://electric-cloud.com/products/electricaccelerator)   Continuous Delivery isn’t continuous if builds and tests take too long to complete. ElectricAccelerator speeds up builds and tests by up to 20X, improving software time to market, infrastructure utilization and developer productivity  
+* [SBT](http://www.scala-sbt.org/index.html)  sbt is an open source build tool for Scala and Java projects.
+* [do](https://github.com/8gears/do)  The simplest build tool on earth. Agnostic and multipurpose build tool and a build file. Tries to be better than the usual shell hell.
 
 
 ## Static Check
-软件静态检查工具  
-* [static tools wiki](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) 维基页面  
-* [coverity](http://www.coverity.com/)  持续衡量和改进整个开发组织的代码质量和安全性  
-* [fxcop](http://msdn.microsoft.com/en-us/library/bb429476%28VS.80%29.aspx)  FxCop 是一个应用程序，它分析托管代码程序集（面向 .NET Framework 公共语言运行时的代码）并报告有关程序集的信息，例如可能的设计、本地化、性能和安全改进  
-* [cpd](http://pmd.sourceforge.net/pmd-4.3.0/cpd.html) 重复代码很难找到，尤其是在大型项目中. 但是 PMD 的复制/粘贴检测器 (CPD) 可以为您找到它  
-* [sonar](http://www.sonarqube.org)  SonarQube 是一个管理代码质量的开放平台  
-* [findbugs](http://findbugs.sourceforge.net)  查找 Java 程序中的错误   
-* [checkstyle](http://checkstyle.sourceforge.net)  Checkstyle 是一种开发工具，可帮助程序员编写符合编码标准的 Java 代码  
+Software static check tools  
+* [static tools wiki](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis) wiki page  
+* [coverity](http://www.coverity.com/)  Continually measure and improve code quality and security across your development organization  
+* [fxcop](http://msdn.microsoft.com/en-us/library/bb429476%28VS.80%29.aspx)  FxCop is an application that analyzes managed code assemblies (code that targets the .NET Framework common language runtime) and reports information about the assemblies, such as possible design, localization, performance, and security improvements  
+* [cpd](http://pmd.sourceforge.net/pmd-4.3.0/cpd.html) Duplicate code can be hard to find, especially in a large project. But PMD's Copy/Paste Detector (CPD) can find it for you  
+* [sonar](http://www.sonarqube.org)  SonarQube is an open platform to manage code quality  
+* [findbugs](http://findbugs.sourceforge.net)  Find Bugs in Java Programs   
+* [checkstyle](http://checkstyle.sourceforge.net)  Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard  
 
 ## Dynamic Check
-软件动态检查工具  
-* [dynamic tools wiki](https://en.wikipedia.org/wiki/Dynamic_program_analysis)  维基页面  
-* [valgrind](http://valgrind.org)  自动检测许多内存管理和线程错误，并详细分析您的程序  
+Software dynamic check tools  
+* [dynamic tools wiki](https://en.wikipedia.org/wiki/Dynamic_program_analysis)  wiki page  
+* [valgrind](http://valgrind.org)  automatically detect many memory management and threading bugs, and profile your programs in detail  
 
 ## Performance Analysis
-软件性能分析工具  
-* [performance tools wiki](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  维基页面    
+Software performance analysis tools  
+* [performance tools wiki](https://en.wikipedia.org/wiki/List_of_performance_analysis_tools)  wiki page    
 
 ## Coverage
-软件测试覆盖工具  
-* [code coverage wiki](https://en.wikipedia.org/wiki/Code_coverage)  维基页面  
+Software testing coverage tools  
+* [code coverage wiki](https://en.wikipedia.org/wiki/Code_coverage)  wiki page  
 
 ## Testing
-软件测试框架和工具  
-* [Testingautomation](https://en.wikipedia.org/wiki/Test_automation)  测试自动化维基页面  
-* [softwareqatest](http://www.softwareqatest.com) 常见问题页面  
-* [qaforums](http://www.qaforums.com)  SQA 论坛  
-* [opensourcetesting](http://www.opensourcetesting.org)  开源软件测试工具、新闻和讨论   
+Software testing framework and tools  
+* [Testingautomation](https://en.wikipedia.org/wiki/Test_automation)  test automation wiki page  
+* [softwareqatest](http://www.softwareqatest.com) FAQ page  
+* [qaforums](http://www.qaforums.com)  SQA Forums  
+* [opensourcetesting](http://www.opensourcetesting.org)  open source software testing tools, news and disccussions   
 * [selenium](http://www.seleniumhq.org)  Selenium automates browsers
-* [Monkey Test It](https://monkeytest.it) 带有 CURLable API 的免费自动化网站测试器
-* [Assertible](https://assertible.com) GitHub 的连续部署后测试
-* [Macaca](https://github.com/alibaba/macaca) 适用于移动和桌面平台上的原生、混合、移动 Web 和 Web 应用程序的自动化测试解决方案
+* [Monkey Test It](https://monkeytest.it) Free automated website tester with CURLable API
+* [Assertible](https://assertible.com) Continuous post deployment testing for GitHub
+* [Macaca](https://github.com/alibaba/macaca) Automation test solution for native, hybrid, mobile web and web application on mobile and desktop platforms
 
 ## Package
-软件包安装工具  
+The tools for software package and installation  
 * [installshield](http://www.installshield.com)  World's #1 Software Installation Solution-Build Reliable MSI Installers for Windows Applications  
-* [NSIS](http://nsis.sourceforge.net/Main_Page)   NSIS（Nullsoft Scriptable Install System）是一个用于创建 Windows 安装程序的专业开源系统. 它被设计成尽可能小和灵活，因此非常适合互联网分发  
-* [rpm](http://rpm.org)  RPM Package Manager (RPM) 是一个强大的命令行驱动的包管理系统，能够安装、卸载、验证、查询和更新计算机软件包  
-* [yum](http://yum.baseurl.org)  Yum 是 rpm 系统的自动更新程序和软件包安装程序/删除程序  
-* [fpm](https://github.com/jordansissel/fpm)  Effing包管理！ 轻松、理智地为多个平台（deb、rpm 等）构建包.  
-* [wix](http://wixtoolset.org/) 可用于创建 Windows 安装体验的最强大的工具集.  
-* [packer](https://www.packer.io/)  Packer 是一种用于从单一源配置为多个平台创建相同机器映像的工具.  
+* [NSIS](http://nsis.sourceforge.net/Main_Page)  NSIS (Nullsoft Scriptable Install System) is a professional open source system to create Windows installers. It is designed to be as small and flexible as possible and is therefore very suitable for internet distribution  
+* [rpm](http://rpm.org)  The RPM Package Manager (RPM) is a powerful command line driven package management system capable of installing, uninstalling, verifying, querying, and updating computer software packages  
+* [yum](http://yum.baseurl.org)  Yum is an automatic updater and package installer/remover for rpm systems  
+* [fpm](https://github.com/jordansissel/fpm) Effing package management! Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity.  
+* [wix](http://wixtoolset.org/) The most powerful set of tools available to create your Windows installation experience.  
+* [packer](https://www.packer.io/)  Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.  
 
 ## Deploy
-网站部署工具  
-* [jfrog](https://www.jfrog.com/) 作为第一个二进制存储库管理解决方案，Artifactory 改变了整个软件发布周期中控制、存储和管理二进制文件的方式  
-* [xl-deploy](https://xebialabs.com/products/xl-deploy)  无代理、基于模型的应用程序部署  
-* [Jenkinsdeployplugin](https://wiki.jenkins-ci.org/display/JENKINS/Deploy%20Plugin)   部署到tomcat  
-* [bintray](https://bintray.com)  自动化软件发布分发的最快、最可靠的方法  
-* [Gitploy](https://www.gitploy.io/) 分分钟搭建围绕 GitHub 的部署系统
+The tools for web site deploy  
+* [jfrog](https://www.jfrog.com/) s the first Binary Repository Management solution, Artifactory has changed the way binaries are controlled, stored and managed throughout the software release cycle  
+* [xl-deploy](https://xebialabs.com/products/xl-deploy)  Agentless, Model-based App Deployment  
+* [Jenkinsdeployplugin](https://wiki.jenkins-ci.org/display/JENKINS/Deploy%20Plugin)   deploy to tomcat  
+* [bintray](https://bintray.com)  The fastest and most reliable way to automate the distribution of your software releases  
+* [Gitploy](https://www.gitploy.io/) Build the deployment system around GitHub in minutes
 
 ## Delivery
-软件交付工具  
-* [sl-release](https://xebialabs.com/products/xl-release)  编排您的持续交付管道. 简单的. 灵活的. 端到端  
-* [archiva](http://archiva.apache.org/index.cgi)   Apache Archiva™ 是一种可扩展的存储库管理软件，可帮助管理您自己的个人或企业范围的构建工件存储库. 它是 Maven、Continuum 和 ANT 等构建工具的完美伴侣  
-* [nexus](http://www.sonatype.com/nexus)  存储库管理器（也称为组件管理器）的使用正在帮助软件开发团队在速度、效率和操作质量方面取得简单的收益  
-* [chocolatey](https://chocolatey.org/) Chocolatey NuGet 是一个机器包管理器，有点像 apt-get，但在构建时考虑到了 Windows  
-* [herd](https://github.com/russss/Herd) 基于 Twitter 的 Murder 的单命令比特流分发系统     
-* [murder](https://github.com/lg/murder)  使用 BitTorrent 和来自 twitter.com 的 BitTornado 库部署大型服务器  
+The tools for software delivery  
+* [sl-release](https://xebialabs.com/products/xl-release)  Orchestrate your Continuous Delivery pipelines. Simple. Flexible. End-to-End  
+* [archiva](http://archiva.apache.org/index.cgi)  Apache Archiva™ is an extensible repository management software that helps taking care of your own personal or enterprise-wide build artifact repository. It is the perfect companion for build tools such as Maven, Continuum, and ANT  
+* [nexus](http://www.sonatype.com/nexus)  The use of repository managers (also known as component managers) is helping software development teams achieve simple gains in speed, efficiency, and quality of their operations  
+* [chocolatey](https://chocolatey.org/) Chocolatey NuGet is a Machine Package Manager, somewhat like apt-get, but built with Windows in mind  
+* [herd](https://github.com/russss/Herd) A single-command bittorrent distribution system, based on Twitter's Murder     
+* [murder](https://github.com/lg/murder)  Large scale server deploys using BitTorrent and the BitTornado library from twitter.com  
 
 ## Provisioning Tools 
-配置工具
-* [Ansible](http://www.ansible.com) 通过人类可读的剧本的简单基础设施管理工具
-* [Puppet]() 在任何公共或私有云上构建、销毁和重建服务器  
-* [Chef](https://www.chef.io/chef/)  用于数据中心自动化的快速、可扩展且灵活的软件  
-* [terraform](https://www.terraform.io) 使用基础架构即代码来配置和管理任何云、基础架构或服务  
+Provision tools
+* [Ansible](http://www.ansible.com) Simple infrastructure management tool via human readable playbooks
+* [Puppet]() Build, destroy and rebuild servers on any public or private cloud  
+* [Chef](https://www.chef.io/chef/)  Fast, scalable and flexible software for data center automation  
+* [terraform](https://www.terraform.io) Use Infrastructure as Code to provision and manage any cloud, infrastructure, or service  
 
 ## secure tools
-安全工具
-* [Deepfence Enterprise](https://deepfence.io) - 用于 kubernetes、虚拟机和无服务器的完整生命周期云原生工作负载保护平台.
+Secure tools
+* [Deepfence Enterprise](https://deepfence.io) - Full life cycle Cloud Native Workload Protection platform for kubernetes, virtual machines and serverless.
 * [Deepfence Threat Mapper](https://github.com/deepfence/ThreatMapper) - Powerful runtime vulnerability scanner for kubernetes, virtual machines and serverless.
-* [whitesource](https://www.whitesourcesoftware.com/) 保护和管理软件中开源组件的最简单方法.  
+* [whitesource](https://www.whitesourcesoftware.com/) The simplest way to secure and manage open source components in your software.  
 
 ## Web Server
-常用的网络服务器  
-* [apache](https://httpd.apache.org)  自 1996 年 4 月以来，Apache httpd 一直是 Internet 上最流行的 Web 服务器  
-* [nginx](http://nginx.org) 一个高性能的免费开源 Web 服务器，为互联网上最繁忙的网站提供支持  
-* [tomcat](http://tomcat.apache.org)  Java Servlet 和 JavaServer Pages 技术的开源软件实现  
+Common used web server  
+* [apache](https://httpd.apache.org)  Apache httpd has been the most popular web server on the Internet since April 1996  
+* [nginx](http://nginx.org) A high performance free open source web server powering busiest sites on the Internet  
+* [tomcat](http://tomcat.apache.org)  An open source software implementation of the Java Servlet and JavaServer Pages technologies  
 * [jetty](http://www.eclipse.org/jetty/)  
-Jetty 提供 Web 服务器和 javax.servlet 容器，以及对 SPDY、WebSocket、OSGi、JMX、JNDI、JAAS 和许多其他集成的支持  
-* [HAProxy](http://www.haproxy.org/) - 基于软件的负载平衡、SSL 卸载和性能优化、压缩和一般 Web 路由.  
+Jetty provides a Web server and javax.servlet container, plus support for SPDY, WebSocket, OSGi, JMX, JNDI, JAAS and many other integrations  
+* [HAProxy](http://www.haproxy.org/) - Software based load Balancing, SSL offloading and performance optimization, compression, and general web routing.  
 
 ## OS And Shell
-Linux 外壳、perl、python  
+Linux shell, perl, python  
 * [awesome-shell](https://github.com/itech001/awesome-shell/blob/master/README.md)  
 * [awesome-python](https://github.com/vinta/awesome-python)  
 * [awesome-perl](https://github.com/hachiojipm/awesome-perl)  
 * [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin)  
 
 ## Applications And Container
-VM 应用程序和容器  
-* [docker](https://www.docker.com) Docker - 面向开发人员和系统管理员的分布式应用程序的开放平台  
-* [suseapplication](https://www.suse.com/products/susestudio/) 创建 suse 应用程序的工具  
+VM application and container  
+* [docker](https://www.docker.com) Docker - An open platform for distributed applications for developers and sysadmins  
+* [suseapplication](https://www.suse.com/products/susestudio/) tools to create suse applications  
 
 ## Database Version Control
-数据库版本控制系统  
-* [liquibase](http://www.liquibase.org) 数据库的源代码控制  
-* [flywaydb](http://flywaydb.org) 数据库迁移变得简单  
-* [Rumba RDBM](https://www.dbinvent.com/) 支持数据库迁移工具、纯 SQL 和声明式定义.
-* [dbdeploy](http://dbdeploy.com)  dbdeploy 是一个数据库变更管理工具. 它适用于希望以简单、受控、灵活和频繁的方式改进数据库设计或重构数据库的开发人员或 DBA   
-* [dbmaestro](http://www.dbmaestro.com/)  受控数据库持续交付是我们的业务  
+Database version control system  
+* [liquibase](http://www.liquibase.org) source control for your database  
+* [flywaydb](http://flywaydb.org) Database Migrations Made Easy  
+* [Rumba RDBM](https://www.dbinvent.com/) Database migration tool, plain-SQL, and declarative definition supported.
+* [dbdeploy](http://dbdeploy.com) dbdeploy is a Database Change Management tool. It’s for developers or DBAs who want to evolve their database design – or refactor their database – in a simple, controlled, flexible and frequent manner   
+* [dbmaestro](http://www.dbmaestro.com/)  Controlled Database Continuous Delivery is Our Business  
 
 ## Useful Sites
-其他有用的页面  
+Other useful pages  
 * [infoq](http://www.infoq.com)  
 * [stackoverflow](http://stackoverflow.com)  
 
 ## Conference And Submit
-会议并提交  
+Conference and submit  
 * [devops submit](http://devopssummit.sys-con.com)  
 
 ## Books
-* [Securing DevOps](https://manning.com/books/securing-devops?a_aid=securingdevops&a_bid=1353bcd8) - 一本关于利用 CI/CD 技术提高 Web 应用程序及其基础设施安全性的书.
-* [Learning Continuous Integraion with TeamCity](https://www.packtpub.com/web-development/learning-continuous-integration-teamcity-raw) - 通过使用 TeamCity 为不同的技术堆栈设置持续集成，掌握持续集成背后的原则和实践
-* [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) - 一本关于使用 Jenkins 为云原生应用程序（包括 K8s 和无服务器应用程序）构建 CI/CD 管道的书.
-* [Continuous Delivery for Kubernetes](https://www.manning.com/books/continuous-delivery-for-kubernetes) - 使用适用于 Kubernetes 和云应用程序的开源工具，在您的持续交付之旅中走上快车道
-* [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - 向您展示如何构建优化开发流程的管道的书，以便您可以无缝地将软件交付到生产环境.
+* [Securing DevOps](https://manning.com/books/securing-devops?a_aid=securingdevops&a_bid=1353bcd8) - A book on utilizing CI/CD techniques to improve the security of web applications and their infrastructure.
+* [Learning Continuous Integraion with TeamCity](https://www.packtpub.com/web-development/learning-continuous-integration-teamcity-raw) - Master the principles and practices behind Continuous Integration by setting it up for different technology stacks using TeamCity
+* [Pipeline as Code](https://www.manning.com/books/pipeline-as-code) - A book on building CI/CD pipelines with Jenkins for cloud-native applications (including K8s & Serverless apps).
+* [Continuous Delivery for Kubernetes](https://www.manning.com/books/continuous-delivery-for-kubernetes) - Take the fast track in your journey to continuous delivery, with open source tools for Kubernetes and cloud applications
+* [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - Book that shows you how to build pipelines that optimize your development process so you can deliver software seamlessly to production.
 
 ## Other Awesome Lists
-其他非常棒的列表可以在  
+Other amazingly awesome lists can be found in  
 * [awesome](https://github.com/sindresorhus/awesome)  
 * [awesome-awesome](https://github.com/emijrp/awesome-awesome)  
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)  
@@ -282,6 +282,6 @@ VM 应用程序和容器
 
 
 ## Contact
-欢迎添加有关持续集成和持续交付的新项目.  
-我的邮箱是：itech001@126.com.  
+Welcome To add new items about continuous integration and continuous delivery.  
+my email is: itech001@126.com.  
   
